@@ -1,5 +1,31 @@
 node_modules/
 dist/
 src-tauri/target/
+src-tauri/Cargo.lock
 .DS_Store
 *.log
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# OS
+Thumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Tauri build artifacts
+src-tauri/gen/schemas/
+
+# Environment
+.env
+.env.*
