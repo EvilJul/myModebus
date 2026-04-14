@@ -53,6 +53,14 @@ src-tauri/            # Rust 后端
   tauri.conf.json     # Tauri 配置
 ```
 
+## macOS 安装提示
+
+macOS 下载后打开可能提示"已损坏"，这是因为应用未经 Apple 签名。终端执行以下命令即可：
+
+```bash
+xattr -cr /Applications/myModebus.app
+```
+
 ## 错误码速查
 
 | 范围 | 类别 |
